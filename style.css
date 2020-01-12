@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #464159;
+  width: 30%;
+  margin: 0 auto;
+  font-family: 'Lobster', cursive;
+  font-size: 3.8em;
+  font-weight: 400
+}
+
+h2 {
+  color: #1e836c;
+  font-size: 3.8em;
+  font-weight: 400;
+}
+
+h3 {
+  color: #464159;
+  font-size: 2.8em;
+  font-weight: 200;
+}
+
+p {
+  color: #1b262c;
+  font-size: 1.8em;
+  font-weight: 200;
+}
+
+.topContainer {
+  background-color: #c7f0db;
+  font-family: 'Seymour One', sans-serif;
+}
+
+.middle-container {
+  background-color: #c7f0db;
+}
+
+.bottom-container{
+  background-color: #c7f0db;
+  color: #1b262c;
+  font-size: 1em;
+  font-weight: 200;
+}
+hr{
+  margin: 0;
+}
+.name {
+  margin-top: 60px;
+}
+
+.cloud1 {
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+.cloud2 {
+  position: absolute;
+}
+
+.btn{
+  border-radius: 50px;
+  border-style: groove;
+}
