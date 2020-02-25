@@ -30,20 +30,33 @@ p {
   font-weight: 200;
 }
 
+a{
+  color: #11999E;
+  font-family: sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 1em;
+  margin-top: 20px;
+}
 .topContainer {
-  background-color: #c7f0db;
+  background-color: #EAF6F6;
   font-family: 'Seymour One', sans-serif;
 }
 
-.middle-container {
-  background-color: #c7f0db;
-}
-
 .bottom-container{
-  background-color: #c7f0db;
+  background-color: #66BFBF;
   color: #1b262c;
   font-size: 1em;
   font-weight: 200;
+  padding: 50px 0 20px;
 }
 
 .skill-row{
@@ -62,9 +75,14 @@ line-height: 2;
   float: left;
 }
 
-.hr{
-  margin: 0;
+hr{
+      border-color: grey;
+      width: 5%;
+      border-width: 5px;
+      border-style: none;
+      border-top-style: dotted;
 }
+
 .name {
   margin-top: 60px;
 }
@@ -79,6 +97,34 @@ line-height: 2;
 }
 
 .btn{
-  border-radius: 50px;
-  border-style: groove;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+  background-image: -webkit-gradient(top, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  background-image: -webkit-gradient(top, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.contact-me{
+  margin-bottom: 50px;
 }
