@@ -78,14 +78,16 @@ line-height: 1.5;
   float: left;
   border-radius: 100%;
   box-shadow: 2px 2px 4px #393e46;
-  padding: 10px;
+  padding: 2px;
+  margin: 12px;
 }
 .des{
   width: 20%;
   float: left;
   border-radius: 100%;
   box-shadow: 2px 2px 4px #393e46;
-  padding: 10px;
+  padding: 2px;
+  margin: 12px;
 }
 
 hr{
