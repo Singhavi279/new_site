@@ -9,9 +9,8 @@ body {
 }
 
 .mydata {
-  border-radius: 10%;
   box-shadow: 4px 7px 4px 4px #1b262c;
-  width: 70%;
+  width: 75%;
   padding: 40px;
   margin: 100px auto;
 }
